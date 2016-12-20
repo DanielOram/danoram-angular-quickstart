@@ -10,6 +10,6 @@ app.use(bodyParser.urlencoded({extended: true}) );
 
 app.use( express.static(__dirname + '/client' ) );
 
-var listener = app.listen(8888, function(){
+var listener = app.listen(process.env.PORT || 5000, function(){
     console.log('Listening on port ' + listener.address().port); //Listening on port 8888
 });
