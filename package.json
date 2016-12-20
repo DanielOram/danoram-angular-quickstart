@@ -1,5 +1,5 @@
 {
-  "name": "basictemplate",
+  "name": "angular node server",
   "version": "1.0.0",
   "description": "",
   "main": "web.js",
@@ -9,7 +9,7 @@
     "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
     "heroku-postbuild": "npm install --prefix ./client"
   },
-  "author": "",
+  "author": "daniel oram",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.13.3",
