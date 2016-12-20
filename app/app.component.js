@@ -7,7 +7,7 @@
   //When we need something from Angular, we use the ng object.
     ng.core.Component({
       selector: 'my-app',
-      template: '<h1>Hello Angular</h1>'
+      template: '<h1>Daniel Oram\'s simple angular 2 app!</h1>'
     })
     .Class({
       constructor: function() {}
